@@ -1,0 +1,73 @@
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.team-member {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.member-img {
+    position: relative;
+}
+
+.member-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.member-img:hover .overlay {
+    opacity: 1;
+}
+
+.social-links {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-link {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.member-info {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.member-info h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.member-info p {
+    color: #666;
+    margin: 10px 0;
+}

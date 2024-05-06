@@ -1,0 +1,60 @@
+.ui {
+  background-image: linear-gradient(   #5593c5 25%, rgb(111, 191, 238) 95%  );
+box-shadow: none;
+  height: 760px;
+ 
+}
+
+.iu{
+  background-image: linear-gradient(   rgb(111, 191, 238) 25% ,#5593c5 95%  );
+box-shadow: none;
+  height: 760px;
+}
+
+.ai{
+  background-image:linear-gradient(  #5593c5 25% , #364b9e 95% ); 
+box-shadow: none;
+  height: 760px;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+
+}
+
+.topic-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.topic-list li {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+ 
+}
+
+.topic-list li img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.topic-list li .cont {
+  font-size: 14px;
+  color: #000000;
+
+
+ 
+  position: relative;
+  border: 1px solid #ccc; /* Adicionando borda */
+  border-radius: 5px; /* Adicionando borda */
+  padding: 10px; /* Adicionando espaço interno */
+  margin-top: 10px; /* Adicionando espaço superior */
+}
+
+
